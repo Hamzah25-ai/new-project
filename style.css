@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+}
+.cuhh {
+  background: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 13px;
+  width: 560px;
+  margin: 0 auto;
+  height: 470px;
+}
+.fohld {
+  margin-top: 3rem;
+}
+input{
+  width: 530px;
+  padding: 0.5rem;
+  color: green;
+  margin-top: 0.8rem;
+  border: 1px solid green;
+  border-radius: 0.2rem;
+}
+.dir{
+  text-align: center;
+  margin-top: 4rem;
+}
+button{
+  cursor: pointer;
+}
+p{
+  margin-top: 0.4rem;
+}
+button{
+  margin-top: 1rem;
+  margin-left: 25rem;
+  padding: 0.6rem;
+  background-color: rgb(240, 64, 64);
+  color: #ffffff;
+}
+@media (max-width: 585px) {
+  .cuhh{
+    padding: 3rem;
+  }
+}
+@media (max-width: 570px) {
+  .cuhh{
+    padding: 5rem;
+  }
+}
