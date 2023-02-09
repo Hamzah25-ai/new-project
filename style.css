@@ -10,15 +10,17 @@ body{
   background: #ffffff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 13px;
-  width: 560px;
+  width: 40%;
   margin: 0 auto;
   height: auto;
+  margin-top: 11rem;
+  border-radius: 0.7rem;
 }
 .fohld {
   margin-top: 3rem;
 }
 input{
-  width: 530px;
+  width: 95%;
   padding: 0.5rem;
   color: green;
   margin-top: 0.8rem;
@@ -30,37 +32,63 @@ input{
   text-align: center;
   margin-top: 4rem;
 }
-button{
-  cursor: pointer;
+.children{
+  padding: 1.2rem;
 }
+/* button{
+  cursor: pointer;
+  width: 30%;
+  border-radius: 0.3rem;
+} */
 p{
   margin-top: 0.4rem;
 }
 button{
   margin-top: 1rem;
   margin-left: 25rem;
-  padding: 0.6rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
   background-color: rgb(240, 64, 64);
   color: #ffffff;
 }
 h2{
   margin-bottom: 2rem;
 }
-/* @media (max-width: 585px) {
-  .cuhh{
-    flex-wrap: wrap;
-  }
+.ending{
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-@media (max-width: 585px) {
-  .cuhh{
-    padding: 3rem;
-  }
+.ikj{
+  display: flex;
+  justify-content: space-around;
 }
-@media (max-width: 570px) {
-  .cuhh{
-    padding: 5rem;
-  }
+.ic{
+  display: flex;
+  color: red;
+  text-align: center;
+}
+ul{
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+  justify-content: center;
+  color: red;
+  text-align: center;
+}
+/* ul{
+  font-size: 20px;
 } */
+@media (max-width: 1495px) {
+  button{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 900px) {
+  ul{
+     flex-direction: column;
+  }
+}
 @media (max-width: 870px) {
   .wrapper{
     flex-wrap: wrap;
@@ -75,9 +103,4 @@ h2{
   /* .cuhh{
     padding: 3px;
   } */
-}
-@media(max-width: 590px){
-  input{
-    padding: auto;
-  }
 }
